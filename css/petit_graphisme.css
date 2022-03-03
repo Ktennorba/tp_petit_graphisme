@@ -1,0 +1,193 @@
+body
+{
+    display: block;
+    margin: 0px;
+}
+
+header
+{
+    margin: 0px;
+    display: flex;
+    width: 90%;
+    padding-left: 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav ul
+{
+    display: flex;
+}
+
+nav ul li
+{
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+}
+
+nav
+{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+main
+{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.banniere
+{
+    display: flex;
+    align-items: center;
+    background: url(../image/backgroung_image.jpg);
+    background-size: cover;
+    height: 500px;
+    justify-content: center;
+    margin-top: -0.3%;
+}
+
+.info_banniere p
+{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1.7em;
+    align-items: center;
+}
+
+.banniere .info_banniere .bouton img
+{
+    width: 160px;
+    height: 55px;
+    margin-bottom: 4%;
+}
+
+.services
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.graphisme, .strategie, .illustration
+{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+
+}
+
+.presentation_agence
+{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 26%;
+    margin-right: 26%;
+    padding-left: 6%;
+    padding-right: 6%;
+    text-align: center;
+}
+
+.retour_clients
+{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 27%;
+    margin-right: 27%;
+    padding-left: 6%;
+    padding-right: 6%;
+    text-align: center;
+}
+
+footer
+{
+    padding-right: 5%;
+    padding-left: 5%;
+    color: white;
+}
+
+.amb
+{
+    background-color: midnightblue;
+}
+
+.renseignements
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.renseignements ul li a
+{
+    text-decoration: none;
+    color:white;
+    font-size: 1.3em;
+}
+
+#coordonnees p
+{
+    font-size: 1em;
+}
+
+.reseaux_sociaux p
+{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 39%;
+    margin-right: 39%;
+    padding-bottom: 3%;
+    margin-top: 0.15%;
+
+}
+
+.nom_client
+{
+    display: flex;
+    margin-bottom: -0.5%;
+    margin-top: -0.5%;
+    margin-left: 37%;
+    margin-right: 27%;
+    padding-left: 6%;
+    padding-right: 6%;
+    opacity: 0.5;
+    text-align: center;
+}
+
+aside
+{
+    margin-top: -1%;
+    margin-bottom: 1%;
+}
+
+.amb p
+{
+    display: flex;
+    margin-bottom: -2%;
+    margin-left: 35%;
+    margin-right: 27%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 3%;
+    text-align: center;
+    font-size: 0.8em;
+}
